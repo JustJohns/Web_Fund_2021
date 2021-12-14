@@ -1,0 +1,47 @@
+*{
+    background-color: rgba(67, 90, 20, 0.493);
+}
+
+h1, p{
+    background-color: orangered;
+    color: palegoldenrod;
+    text-align: center;
+    text-decoration: line-through;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: initial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+
+}
+
+#firstHello{
+    border: 3px solid black;
+    background-color: blueviolet;
+}
+
+.dottedBorder{
+    border: 2px dotted darkred;
+}
+
+.tall{
+    height: 30px;
+}
+
+ul > li{
+    font-family: fantasy;
+}
+
+.mopsuit{
+    width: 50%;
+    margin: 50px;
+}
+
+.frame{
+    height: 300px;
+    width: 300px;
+    border: 4px solid black;
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+li.active
