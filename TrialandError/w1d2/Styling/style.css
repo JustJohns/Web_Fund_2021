@@ -1,0 +1,24 @@
+h1 {
+    text-align: left;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+}
+
+.cloud{
+    color: skyblue;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    background-color: slateblue;
+}
+
+h3 {
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    background-color: steelblue;
+}
