@@ -1,0 +1,20 @@
+.search{
+    color: turquoise;
+    border: 1px solid turquoise;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.plus {
+    color: white;
+    border: 1px ;
+    background-color: springgreen;
+    border-radius: 50%;
+}
+
+.create {
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(33, 109, 223);
+    box-shadow: 5px 5px 5px black;
+}
