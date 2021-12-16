@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+#navBar{
+    width: 100%;
+    height: 90px;
+    background-color: beige;
+}
+
+#navTop{
+    width: 100%;
+    height: 60%;
+    background-color: bisque;
+    border-bottom: 1px solid lightgray;
+}
+
+#navBottom{
+    width: 100%;
+    height: 40%;
+    background-color: bisque;
+}
+
+#navLeft{
+    height: 100%;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navRight{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 25%;
+    height: 100%;
+    background-color: solid red;
+}
+
+#bigBanner{
+    width: 100%;
+}
+
+#gameList{
+    width: 100%;
+    height: 300px;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gameBox{
+    height: 80%;
+    width: 200px;
+    background-color: black;
+
+}
