@@ -1,0 +1,225 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#innerBody{
+    height: 800px;
+    width: inherit;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    width: 6%;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    width: 80%;
+    height: 70%;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.btnBox{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn{
+    height: 70% auto;
+    width: 10% auto;
+    color: whitesmoke;
+    background-color: turquoise;
+    box-shadow: 3px 3px 3px black;
+}
+
+h1{
+    height: 30px;
+    width: 50%;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    height: 30px;
+    width: 50%;
+    color: #333333;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+
+a{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    margin: 10px;
+}
+
+li{
+    height: 0 auto;
+    width: auto;
+    padding: 5px;
+    list-style: none;
+}
+
+.active{
+    color: whitesmoke;
+}
+
+
+
+#leftBody{
+    width: 60%;
+    background-color: burlywood;
+
+}
+
+#rightBody{
+    width: 40%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-around;
+
+}
+
+#card{
+    width: 70% auto;
+    height: 275px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.leftSide{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-content: flex-start; */
+}
+
+.topBar{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(55, 55, 192);
+    position: relative;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top: 40%;
+    border: transparent;
+}
+
+.name > h1{
+    color: black;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+h2{
+    font-size: 20px;
+    width: 75%;
+    margin-left: 20px;
+}
+
+h2 > img{
+    width: 10px;
+    height: 15px;
+    position: static;
+    border: 1px solid cornsilk;
+}
+
+p{
+    font-size: 13px;
+    width: 60%;
+    height: 0 auto;
+    margin-left: 20px;
+}
+
+.settings{
+    margin-left: 20px;
+}
+
+.settings > img{
+    position: static;
+    width: 12px;
+    height: 12px;
+    border: 1px solid cornsilk;
+}
+
+.edu{
+    height: 400px;
+    width: 70% auto;
+    background-color: lavenderblush;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.eduTitle{
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.rightTop{
+    width: 100% auto;
+    height: 200px;
+    background-color: yellow;
+
+}
+
+.rightBottom{
+    width: 100% auto;
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+.conTitle{
+
+}
