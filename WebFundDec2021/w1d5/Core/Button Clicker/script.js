@@ -2,17 +2,11 @@ function clickLogin(element){
     element.innerText = "Logout";
 }
 
-var count = 0;
-
-function clickLike(element){
-    count++;
-    element.innerText = count + " likes";
+function clickLike(){
+    // console.log("clicked");
+    alert("Ninja was liked");
 }
 
-var count = 0
-
-var btnRe = button.getElementById("btnR").removeAttribute("onclick");
-
-if(btnRe.onclick == true){
-    this.onclick = null;
+function addDef(element){
+    element.button = element.remove();
 }
