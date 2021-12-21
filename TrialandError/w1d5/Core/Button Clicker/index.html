@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <div id="nav">
+        <h1 class="navTitle">Dojonary</h1>
+        <input class="navSearch" type="text" placeholder="Search">
+        <button onclick="clickLogin(this)" class="navBtn">Login</button>
+    </div>
+
+    <div id="container">
+
+        <div class="left">
+            <div class="leftBox">
+                <div class="innerBoxL">
+                    <div><h1>ninja</h1>
+                        <h4><em>noun</em></h4>
+                        <h4>Plural: ninjas</h4>
+                        <button onclick="clickLike(this)" class="innerBtn" id="1">likes</button>
+                    </div>
+                </div>
+                <div class="innerBoxR"><p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p></div>
+            </div>
+
+            <div class="leftBox">
+                <div class="innerBoxL">
+                    <div><h1>ninja</h1>
+                        <h4><em>noun</em></h4>
+                        <h4>Plural: ninjas</h4>
+                        <button onclick="clicklike(this)" class="innerBtn" id="2">likes</button>
+                    </div>
+                </div>
+                <div class="innerBoxR"><p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p></div>
+            </div>
+
+            <div class="rightBox">
+                <div>
+                    <p>Dojonary is defined by <strong>YOU</strong></p>
+                    <button class="innerBtnR">Add Definition</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

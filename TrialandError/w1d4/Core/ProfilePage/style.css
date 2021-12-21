@@ -75,7 +75,7 @@ ul{
     
 }
 
-a{
+.nav-links > a{
     color: rgb(202, 202, 202);
     text-decoration: none;
     margin: 10px;
@@ -136,7 +136,7 @@ li{
     position: relative;
 }
 
-img{
+.userCircle{
     width: 80px;
     height: 80px;
     border: 2px solid grey;
@@ -218,8 +218,23 @@ p{
     width: 100% auto;
     height: 400px;
     background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
 .conTitle{
+    width: 100%;
+    height: 40px;
+    background-color: dimgrey;
+}
 
+.pic{
+    height: 50px;
+    width: 50px;
+
+}
+
+#rightBody > li{
+    display: flex;
 }

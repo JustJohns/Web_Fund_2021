@@ -1,0 +1,39 @@
+#container{
+    width: 600px;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.top{
+    height: 40px;
+    width: 100%;
+    
+}
+
+h2{
+    height: 15%;
+    background-color: brown;
+}
+
+.likes{
+    height: 15%;
+    width: 150px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row;
+}
+
+#btn{
+    height: 20px;
+    width: 30px;
+    background-color: yellow;
+
+}
+
+.underText{
+
+}
