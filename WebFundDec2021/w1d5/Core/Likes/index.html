@@ -9,15 +9,51 @@
 </head>
 <body>
     <div id="container">
-        <div class="top">
-            <h2><strong>Some User</strong></h2>
-            <div class="likes">
-                <p class="addTo">like(s)</p>
-                <button id="btn" onclick="clickLike(element)">Like</button>
+        <div id="title"><h2>Network</h2></div>
+        <div id="feed"><h2>Your Feed</h2></div>
+        <div id="innerContainer">
+            <div id="left">
+                <img src="user-circle.png" alt="user">
+                <a href="#">Add an avatar</a>
+                <h3>James Doe</h3>
+            </div>
+            <div id="right">
+                <div class="container">
+                    <div class="top">
+                        <h3><strong>Neil M</strong></h3>
+                        <div class="likes">
+                            <p id="likeCount1">like(s)</p>
+                            <button class="btn" onclick="clickLike()">Like</button>
+                        </div>
+                    </div>
+            
+                    <div class="bottomText"><p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p></div>
+                </div>
+                <div class="container">
+                    <div class="top">
+                        <h3><strong>Nichole K</strong></h3>
+                        <div class="likes">
+                            <p id="likeCount2">like(s)</p>
+                            <button class="btn" onclick="clickLike1()">Like</button>
+                        </div>
+                    </div>
+            
+                    <div class="bottomText"><p>Just finished my <a href="#">next comic</a>, check it out</p></div>
+                </div>
+                <div class="container">
+                    <div class="top">
+                        <h3><strong>Jim R</strong></h3>
+                        <div class="likes">
+                            <p id="likeCount3">like(s)</p>
+                            <button class="btn" onclick="clickLike2()">Like</button>
+                        </div>
+                    </div>
+            
+                    <div class="bottomText"><p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p></div>
+                </div>
             </div>
         </div>
 
-        <div class="bottomText"><p>This is some filler text, it can say anything we like</p></div>
     </div>
 
     <script src="script.js"></script>
