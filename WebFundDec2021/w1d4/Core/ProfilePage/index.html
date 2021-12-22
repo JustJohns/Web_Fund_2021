@@ -11,24 +11,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
-        <div class="nav">
-            <h1 class="nav-title">Profile</h1>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+        <div id="nav">
+            <h1 id="nav-title">Profile</h1>
+            <ul id="nav-links">
+                <li><a href="#" class="active1">Home</a></li>
                 <li><a href="#" class="active">My Profile</a></li>
-                <li><a href="#">Find Connections</a></li>
+                <li><a href="#" class="active1">Find Connections</a></li>
                 <div class="btnBox"><button class="btn">Sign Out</button></div>
             </ul>
         </div>
         <div id="innerBody">
             <div id="leftBody">
                 <div id="card">
-                    <div class="topBar">
+                    <div id="topBar">
                     <img class="userCircle" src="img/user-circle.png" alt="circle">
                     </div>
                     <div class="leftSide">
-                        <div class="name"><h1>Robert Johnson</h1></div>            
-                        <h2><img  src="img/map-marker.png" alt="map-marker"> Virginia</h2>
+                        <h1>Robert Johnson</h1>            
+                        <h2><img id="mapMarker" src="img/map-marker.png" alt="map-marker"> Virginia</h2>
                         <div><p>Developer | Engineer | Problem Solver
                         Master of shadows and the Internet
                         </p></div>
@@ -41,24 +41,31 @@
                     <p>Dec 2021 - Mar 2022</p><p>Triple black belt in Python, MERN, and C#</p></div>
             </div>
 
-            <div id="rightBody">
+            <div id="connections">
                 <div class="rightTop">
-                    <p class="conTitle">Connection Request</p>
-                    <ul>
+                    <div class="title">
+                        <h4 id="two">2</h4>
+                        <h4>Connection Request</h4>
+                    </div>
+                    <ul class="outer">
                         <li><img class="pic" src="img/todd-s.jpg" alt="todd">Todd E</li>
                         <li><img class="pic" src="img/phil-s.jpg" alt="phil">Phil K</li>
                     </ul>
+                    
                 </div>
                 
                 <div class="rightBottom">
-                    <p class="conTitle">Your Connections</p>
-                    <ul>
+                    <div class="title">
+                        <h4>500+</h4>
+                        <h4>Your Connections</h4>
+                    </div>
+                    <ul class="outer">
                         <li><img class="pic" src="img/adrien-s.jpg" alt="adrien">Adrien D</li>
                         <li><img class="pic" src="img/anne-s.jpg" alt="anne">Anne J</li>
                         <li><img class="pic" src="img/alayne-s.jpg" alt="alayne">Alayne T</li>
                         <li><img class="pic" src="img/arry-s.jpg" alt="arry">Arry Y</li>
                     </ul>
-                    <div><a href="#">View More</a></div>
+                    <div id="viewMore"><a href="#">View More</a></div>
                 </div>
             </div>
         </div>    

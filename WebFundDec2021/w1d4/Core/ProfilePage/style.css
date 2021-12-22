@@ -4,48 +4,50 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-#innerBody{
-    height: 800px;
-    width: inherit;
-    background-color: chocolate;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 50px;
-    margin-right: 50px;
-
-}
-
-.nav{
+#nav{
     width: 100%;
     height: 70px;
     background-color: #333333;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.nav-title{
-    width: 6%;
-    margin-left: 100px;
-    display: flex;
-    align-items: center;
+#nav-title{
+    width: 4%;
+    height: 70px auto;
+    margin-bottom: 70px;
+    margin-left: 15%;
+    color: whitesmoke;
 }
 
-.nav-links{
-    width: 80%;
+#nav-links{
+    width: 70%;
     height: 70%;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 100px;
+    text-decoration: none;
+}
+
+.active{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.active1{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    margin: 10px;
 }
 
 .btnBox{
-    width: 65%;
+    width: 55%;
     height: inherit;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 10%;
 }
 
 .btn{
@@ -56,14 +58,18 @@ body{
     box-shadow: 3px 3px 3px black;
 }
 
-h1{
-    height: 30px;
-    width: 50%;
-    color: whitesmoke;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#innerBody{
+    height: 800px;
+    width: 70%;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
 }
+
+
 
 ul{
     height: 30px;
@@ -75,12 +81,6 @@ ul{
     
 }
 
-.nav-links > a{
-    color: rgb(202, 202, 202);
-    text-decoration: none;
-    margin: 10px;
-}
-
 li{
     height: 0 auto;
     width: auto;
@@ -88,25 +88,9 @@ li{
     list-style: none;
 }
 
-.active{
-    color: whitesmoke;
-}
-
-
-
 #leftBody{
     width: 60%;
     background-color: burlywood;
-
-}
-
-#rightBody{
-    width: 40%;
-    background-color: cadetblue;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    justify-content: space-around;
 
 }
 
@@ -120,20 +104,16 @@ li{
     margin: 50px;
 }
 
-.leftSide{
-    width: 100%;
-    height: 225px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* align-content: flex-start; */
-}
-
-.topBar{
+#topBar{
     width: 100%;
     height: 25%;
     background-color: rgb(55, 55, 192);
-    position: relative;
+}
+
+.leftSide{
+    width: 100%;
+    height: 75% auto;
+
 }
 
 .userCircle{
@@ -147,7 +127,7 @@ li{
     border: transparent;
 }
 
-.name > h1{
+h1{
     color: black;
     width: 100%;
     position: relative;
@@ -161,7 +141,7 @@ h2{
     margin-left: 20px;
 }
 
-h2 > img{
+#mapMarker{
     width: 10px;
     height: 15px;
     position: static;
@@ -207,34 +187,66 @@ p{
     margin-left: 20px;
 }
 
-.rightTop{
-    width: 100% auto;
-    height: 200px;
-    background-color: yellow;
-
-}
-
-.rightBottom{
-    width: 100% auto;
-    height: 400px;
-    background-color: yellowgreen;
+#connections{
+    width: 40%;
+    height: 700px;
+    background-color: cadetblue;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
 }
 
-.conTitle{
-    width: 100%;
-    height: 40px;
-    background-color: dimgrey;
+.rightTop{
+    width: 50%;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.rightBottom{
+    width: 50%;
+    height: 400px;
 }
 
 .pic{
     height: 50px;
     width: 50px;
+    border-radius: 50%;
 
 }
 
-#rightBody > li{
-    display: flex;
+.title{
+    width: 100%;
+    height: 40px;
+    background-color: darkgrey;
+    display: inline-flex;
+    text-align: center;
+
+}
+
+.outer{
+    width: 60%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.names{
+    height: 20px;
+    width: 20px;
+    flex-flow: row;
+}
+
+
+span{
+    height: 20px;
+;
+    border-radius: 20%;
 }
