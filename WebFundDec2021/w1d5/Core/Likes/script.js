@@ -1,7 +1,7 @@
 var count = 0;
 var count1 = 0;
 var count2 = 0;
-var likeCount = document.querySelector("#likeCount");
+// var likeCount = document.querySelector("#likeCount");
 
 function clickLike(){
 

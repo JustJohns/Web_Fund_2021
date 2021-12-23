@@ -8,5 +8,5 @@ function clickLike(){
 }
 
 function addDef(element){
-    element.button = element.remove();
+    element.remove();
 }
